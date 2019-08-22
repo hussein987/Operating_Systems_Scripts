@@ -1,0 +1,102 @@
+    1  mkdir ~/week1
+    2  cd ~/week1
+    3  cd ~/Windows/System32
+    4  cd ~/Windows
+    5  cd c
+    6  pwd
+    7  ls ../../../Windows/
+    8  ls ../../../Windows/System32
+    9  ls ../../../Windows/System32
+   10  ls -a ../../../Windows/System32
+   11  grep Cloud * -lR
+   12  ls -a ../../../Windows
+   13  ls -a ../../../Windows/System32 -r | grep Cloud
+   14  pwd
+   15  cd ~/c
+   16  cd ~/
+   17  cd ~/Desktop/
+   18  pwd
+   19  cd ~/c
+   20  cd ~/
+   21  pwd
+   22  cd ~/
+   23  cd ~/
+   24  pwd
+   25  cd D:/
+   26  cd C:/
+   27  pwd
+   28  ls
+   29  cd C:/Windows
+   30  ls
+   31  ls 
+   32  ls System32 -r | grep Cloud
+   33  cd ~/week1
+   34  ls
+   35  cat ex1.txt
+   36  cat > ex1.txt
+   37  ls System32 -r | grep Cloud > ex1.txt
+   38  cd c:/
+   39  ls
+   40  cd c:/Windows/System32
+   41  ls -r | grep Cloud
+   42  ls -r | grep Cloud > ex1.txt
+   43  ls -r | grep Cloud > D:/ex1.txt
+   44  cd D:/
+   45  ls
+   46  cat ex1.txt 
+   47  cat ex1.txt
+   48  ls
+   49  pwd
+   50  git clone https://github.com/hussein987/OS_IU.git
+   51  git clone git@github.com:hussein987/OS_IU.git
+   52  ls
+   53  git clone https://github.com/hussein987/OS_IU.git
+   54  git clone https://github.com/hussein987/OS_IU.git
+   55  which git
+   56  ls
+   57  mv ex1.txt OS_IU/
+   58  cd OS_IU/
+   59  ls
+   60  whoami
+   61  hostname
+   62  man printf
+   63  man intro
+   64  man ls
+   65  man whoami
+   66  git help printf
+   67  git help checkout
+   68  git help printf
+   69  git help whoami
+   70  man man
+   71  --help printf
+   72  printf -h
+   73  -h printf
+   74  man --help
+   75  checkout --help
+   76  help -h
+   77  help --help
+   78  whoami --help
+   79  less
+   80* 
+   81  pwd
+   82  cd ~/
+   83  ls
+   84  less
+   85  less --help
+   86  ls
+   87  less
+   88  less --help
+   89  less ex1.txt
+   90  cd D:/
+   91  ls
+   92* cd D:/OS_IU/
+   93  ls
+   94  less ex1.txt
+   95  head ex1.txt
+   96  tail ex1.txt
+   97  man --help | tail
+   98  help --help | tail
+   99  help --help | head
+  100  grep Cloud ex1.txt
+  101  grep Store ex1.txt
+  102  history > ex2.txt
