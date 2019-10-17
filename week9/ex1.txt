@@ -1,0 +1,3 @@
+For 10 page frames: hits/miss = 0.010101
+For 50 page frames: hits/miss = 0.054852
+For 100 page frames: hits/miss = 0.103753

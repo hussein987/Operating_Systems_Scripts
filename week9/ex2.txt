@@ -1,0 +1,15 @@
+To increase hit/miss ratio, we should increas ethe number of hits. To do so, we can put a sequence that contains only one number:
+
+EX. 2 2 2  ....  2 2  2 {n-times}
+
+And this will give us 1 miss and n hits.
+
+=> hit/miss = n
+
+To decrease the ratio we can increase the number of misses. To do so, we construct for example an increasing sequence.
+
+EX. 1 2 3 4 5 6
+
+will give 6 misses and 0 hits.
+
+=> hit/miss = 0
