@@ -1,0 +1,20 @@
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ touch _ex3.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ chmod -x _ex3.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ ls -l _ex3.txt
+-rw-r--r-- 1 hussein hussein 0 Oct 24 22:38 _ex3.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ chmod +rwx _ex3.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ ls -l _ex3.txt
+-rwxr-xr-x 1 hussein hussein 0 Oct 24 22:38 _ex3.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ chmod g-rwx _ex3.txt 
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ ls -l _ex3.txt
+-rwx---r-x 1 hussein hussein 0 Oct 24 22:38 _ex3.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ chmod g=u _ex3.txt 
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ ls -l _ex3.txt
+-rwxrwxr-x 1 hussein hussein 0 Oct 24 22:38 _ex3.txt
+
+
+
+chmod 660 >>>> Owner (rw), group (rw)
+chmod 775 >>>> Owner (rwx),group (rwx),other (rx)
+chmod 777 >>>> (rwx) for everyone
+

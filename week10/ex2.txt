@@ -1,0 +1,22 @@
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ link ../week01/file.txt _ex2.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ ls
+_ex1_1.txt  _ex1_2.txt  _ex1.txt  ex1.txt  _ex2.txt  ex2.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ ls -i file.txt
+ls: cannot access 'file.txt': No such file or directory
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ cd ..
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework$ cd ./week01/
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week01$ ls -i file.txt
+16124795 file.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week01$ find ~/os_homework/week01 -inum 16124795
+/home/hussein/os_homework/week01/file.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week01$ cd ..
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework$ cd ./week10/
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ ls -i _ex2.txt
+16124795 _ex2.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ find ~/os_homework/week01 -inum 16124795 -exec rm {} \;
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ find ~/os_homework/week01 -inum 16124795
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ find . -inum 16124795
+./_ex2.txt
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ find ~/os_homework/week10 -inum 16124795 -exec rm {} \;
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ find . -inum 16124795
+hussein@hussein-TUF-GAMING-FX504GD-FX80GD:~/os_homework/week10$ 
