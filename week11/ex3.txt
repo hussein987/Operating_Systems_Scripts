@@ -1,0 +1,24 @@
+program1:
+
+output:
+Hello
+Hello
+
+1. parent process copies 'hello' into the buffer.
+2. a new process(child) is forked.
+3. child process and parent have the same contents in their buffers.
+4. child prints a new line and therefore its buffer will be written to the stdout.
+6. parent adds a new line to its buffer.
+7. the newline flushes 'Hello', then 'Hello' is printed to the stdout.
+8. Therefore 'Hello' will be printed twice.
+
+program2:
+
+output:
+Hello
+\n
+\n
+
+1. parent copies 'Hello' to the buffer and appears in the stdout because of the newline.
+2. new process(child) is forked.
+3. '\n' is written to the stdout from both the child and the parent 
